@@ -2,7 +2,7 @@ _Design Freelance_
 
 #### _A full fledged website design! 2/22/19_
 
-#### By _**Nathan Nielson, Isaac Hall, Philip Eskins, Ian Cook**_
+#### By _**Nathan Nielson, Isaac Hall, Philip Eskins, Ian Cook Westgate**_
 
 ## Description
 
@@ -11,14 +11,16 @@ _This application provides the user with the opportunity to peer into a cohesive
 
 
 ## _User Personas_
-_**Ben - Guy who needs a site:**_
+_**Ben - Mold remediation expert:**_
+<br>
 _**Needs:**_
 _Website should be concise and short, very little scrolling, products should be immediately visible. "basically it will be a one stop shop for mold removal and then also sell healthy supplies for example
 Air filters / Healthy Paint / Healthy Household Cleaners etc..."_
 
-![screenshot of Bens comments]()
-![screenshot of Bens comments]()
-![screenshot of Bens comments]()
+![screenshot of Bens comments](src/assets/images/ben-comment2.png)
+![screenshot of Bens comments](src/assets/images/ben-whattheheck.png)
+![screenshot of Bens comments](src/assets/images/ben-darkheader.png)
+![screenshot of Bens comments](src/assets/images/ben-comment1.png)
 
 
 
@@ -26,71 +28,58 @@ _**Pain points:**_
 _Large and dark images, too much scrolling, unnatural color schemes_
 
 
-_**How can we serve? :**_
-
-
-
-
+<!-- _**How can we serve? :**_ -->
 
 
 
 
 ## _User Stories_
-_**Mary - Digital Artist:**_
-
-
-
-
-
-
-
+_**Ben - MC client:**_
+_As a client, I have a strong vision of want I want to represent my new company: I need a earthy, yet concise webpage with minimal scrolling that immediately communicates to my customers what I provide._
 
 
 
 
 ## _**Creative Planning**_
 _**What do we want to convey:**_
-_Professional AND creative/artsy feel_
-_More on the "luxurious" and "cool" side_
-_Well catered for professionals of varying types_
-_Diverse workspaces! Accommodating to all kinds of business!_
-_Consistent, high speed internet and needed hardware!_
-_Quality amenities to facilitate focus and comfort._
-_WE MAKE WORK EASIER FOR EVERYONE!!!_
+* _Down to business_
+* _Knowledgable_
+* _"Clean and healthy"_
+* _Simple Layout_
+
 
 _**How shall we convey this:**_
-_Critical information will be communicated immediately, utilizing icons and brief, succinct, well placed descriptions._
-_Strategically placed images and more laid back, unobtrusive fonts on the landing page._
-_"Low key" color scheme that simultaneously conveys professionalism and creativity, Likely based around Orange or Yellow._
-_KEEP CONTENT NEAR MIDDLE OF SCREEN._
-_Display User feedback in the form of quotes or recommendations._
+* _"Clean" high quality images that don't take up TOO much room._
+* _Concise and well placed text._
+* _Little or no "clutter"_
+
 
 _**User story insights:**_
-_Most critical information thoroughly communicated immediately._
-_Site should be easy to navigate for those who are less "technologically" oriented._
-_Look and feel should be immediately understood by user, without reading any "fine details"_
+_Client lacks experience with web development tools, has strong vision for what he wants but doesn't understand what he needs (from a web development perspective)_
 
 
 _**Outside sources :**_
-_https://www.techspace.com/#homepagevideo_
-_https://centrloffice.com/#_
-_http://www.nedspace.com/#pricing_
-_https://urbanofficeplace.com/en_
+https://www.greenbuildingsupply.com/
+https://www.iqair.com/
+https://www.servpro.com/
 
-![hand drawn sketch of layout plan](src/assets/sketchbook/landing-desktop.jpg)
-![hand drawn sketch of layout plan](src/assets/sketchbook/landing-mobile.jpg)
-![hand drawn sketch of layout plan](src/assets/sketchbook/landing-tablet.jpg)
-![hand drawn sketch of layout plan](src/assets/sketchbook/amen-desktop.jpg)
-![hand drawn sketch of layout plan](src/assets/sketchbook/subscription-desktop.jpg)
-![hand drawn sketch of layout plan](src/assets/sketchbook/contact-desktop.jpg)
 
-![screenshot of sketch wireframe](src/assets/sketchbook/landing-desktop-wire.png)
-![screenshot of sketch wireframe](src/assets/sketchbook/landing-tablet-fire.png)
-![screenshot of sketch wireframe](src/assets/sketchbook/landing-mobile-wire.png)
+![Sketch Description placehold](src/assets/sketchbook/landing-desktop.jpg)
+<br/>
 
-![screenshot of sketch wireframe](src/assets/sketchbook/contact-desktop.png)
-![screenshot of sketch wireframe](src/assets/sketchbook/amen-desktop.png)
-![screenshot of sketch wireframe](src/assets/sketchbook/paymnent-desktop.png)
+![hand drawn sketch of layout plan](src/assets/sketchbook/landing-mobile.jpg)<br/>
+![hand drawn sketch of layout plan](src/assets/sketchbook/landing-tablet.jpg)<br/>
+![hand drawn sketch of layout plan](src/assets/sketchbook/amen-desktop.jpg)<br/>
+![hand drawn sketch of layout plan](src/assets/sketchbook/subscription-desktop.jpg)<br/>
+![hand drawn sketch of layout plan](src/assets/sketchbook/contact-desktop.jpg)<br/>
+
+![Sketch PlaceHold](src/assets/sketchbook/landing-desktop-wire.png)<br/>
+![screenshot of sketch wireframe](src/assets/sketchbook/landing-tablet-fire.png)<br/>
+![screenshot of sketch wireframe](src/assets/sketchbook/landing-mobile-wire.png)<br/>
+
+![screenshot of sketch wireframe](src/assets/sketchbook/contact-desktop.png)<br/>
+![screenshot of sketch wireframe](src/assets/sketchbook/amen-desktop.png)<br/>
+![screenshot of sketch wireframe](src/assets/sketchbook/paymnent-desktop.png)<br/>
 
 ## Description
 
