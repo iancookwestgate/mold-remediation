@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 480px) {
+  div.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: auto;
+  }
+};
+
+@media screen and (max-width: 1024px) and (min-width:768px)  {
+
+  div.grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+};
+@media screen and (min-width: 1024px) {
+
+  div.grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .product-box {
+
+    }
+  }
+};
