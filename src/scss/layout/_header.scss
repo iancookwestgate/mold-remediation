@@ -1,9 +1,70 @@
-.navbar {
+.navbard {
   background-color: #963C00;
-  display: flex;
-  justify-content: space-around;
+}
+
+.navbard-internals {
+  max-width: 1440px;
+  height:56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  align-items: center;
   a {
     text-decoration: none;
     color: white;
+  }
+}
+
+
+
+@include mQ(1450px){
+  .navbard-internals {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@include mQ(1250px){
+  p {
+    text-align: center;
+  }
+  .navbard-internals {
+    grid-template-columns: 1fr 1fr 1fr;
+    .burger {
+      display: flex;
+      align-self: center;
+      margin-left: 5%;
+    }
+    .hideme {
+      display: none;
+    }
+    .corp-name {
+      font-size: 18px;
+    }
+  }
+}
+
+.burger {
+  display: none;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@include mQ(1250px) {
+  .icons {
+    justify-content: flex-end;
+    .icon-spacing {
+      margin: 0 5%;
+    }
+  }
+}
+
+@include mQ(750px) {
+  #globe {
+    display: none;
   }
 }
