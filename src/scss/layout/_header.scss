@@ -13,6 +13,8 @@
   }
 }
 
+
+
 @include mQ(1450px){
   .navbar-internals {
     margin-left: 2%;
@@ -21,6 +23,9 @@
 }
 
 @include mQ(1250px){
+  p {
+    text-align: center;
+  }
   .navbar-internals {
     grid-template-columns: 1fr 1fr 1fr;
     .burger {
@@ -30,6 +35,9 @@
     }
     .hideme {
       display: none;
+    }
+    .corp-name {
+      font-size: 18px;
     }
   }
 }
