@@ -1,12 +1,8 @@
 import './scss/normalize.scss';
+// import 'bootstrap';
 import './scss/input.scss';
 import $ from 'jquery';
 
-// module.exports = {
-//   currentSlide();
-//   plusSlides();
-//   showSlides();
-// }
 
 var slideIndex = 1;
 showSlides(slideIndex);
