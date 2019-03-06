@@ -13,6 +13,13 @@
   }
 }
 
+@include mQ(1450px){
+  .navbar-internals {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
 @include mQ(1250px){
   .navbar-internals {
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,5 +50,11 @@
     .icon-spacing {
       margin: 0 5%;
     }
+  }
+}
+
+@include mQ(750px) {
+  #globe {
+    display: none;
   }
 }
