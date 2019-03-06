@@ -16,6 +16,7 @@
   img {
     object-fit: cover;
     height: 40vw;
+    max-height: 500px;
   }
 }
 
@@ -62,17 +63,18 @@
     background-color: rgba(0,0,0,0.5);
     list-style-position: inside;
     padding: 20px;
+    width: 80%;
   }
   .firstLI{
-    animation: slideInRight 2s linear;
+    animation: slideRight 2s linear;
   }
   .secondLI {
     opacity: 0;
-    animation: slideInRight 2s 1s linear forwards;
+    animation: slideRight 2s 1s linear forwards;
   }
   .thirdLI {
     opacity: 0;
-    animation: slideInRight 2s 2s linear forwards;
+    animation: slideRight 2s 2s linear forwards;
   }
 }
 
@@ -119,35 +121,32 @@
   to {opacity: 1}
 }
 
-@-webkit-keyframes slideInRight {
+@-webkit-keyframes slideRight {
   from {
+    color: red;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
-    opacity: 0;
   }
 
   to {
+    color: blue;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    opacity: 1;
+    visibility: visible;
   }
 }
 
-@keyframes slideInRight {
+@keyframes slideRight {
   from {
+    opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
-    opacity: 0;
   }
 
   to {
+    opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    opacity: 1;
+    visibility: visible;
   }
-}
-
-.slideInRight {
-  -webkit-animation-name: slideInRight;
-  animation-name: slideInRight;
 }
