@@ -15,8 +15,13 @@
 //     }
 //   }
 // }
-.button{
-  text-align: center;
+.grid {
+  max-width: 1440px;
+  margin: 0 auto;
+
   display: flex;
   justify-content: center;
+  .button{
+    text-align: center;
+  }
 }

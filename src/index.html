@@ -2,31 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Mold Remediation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
-    <title></title>
+
   </head>
   <body>
     <div class="navbar">
-      <div class="">
-        <p><a href="#">Mold Remediation</a></p>
-      </div>
-      <div class="">
-        <p><a href="#">Shop Mold</a></p>
-      </div>
-      <div class="">
-        <p><a href="#">Who We Are</a></p>
-      </div>
-      <div class="">
-        <p><a href="#">How We Give</a></p>
-      </div>
-      <div class="">
-        <p><a href="#">Air Quality Life</a></p>
-      </div>
-      <div class="">
-        <p><a href="#">Get Help</a></p>
-      </div>
-      <div class="">
-        <p><a href="#">*insert icons here*</a></p>
+      <div class="navbar-internals">
+        <div class="burger">
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="corp-name">
+          <p><a href="#">Mold Remediation</a></p>
+        </div>
+        <div class="hideme">
+          <p><a href="#">Shop Mold</a></p>
+        </div>
+        <div class="hideme">
+          <p><a href="#">Who We Are</a></p>
+        </div>
+        <div class="hideme">
+          <p><a href="#">How We Give</a></p>
+        </div>
+        <div class="hideme">
+          <p><a href="#">Air Quality Life</a></p>
+        </div>
+        <div class="hideme">
+          <p><a href="#">Get Help</a></p>
+        </div>
+        <div class="icons">
+          <div class="icon-spacing">
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+          <div class="icon-spacing">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+          <div class="icon-spacing" id="globe">
+            <a href="#"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -50,19 +66,19 @@
           <div class="text">Caption Three</div>
         </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" id="prev">&#10094;</a>
+        <a class="next" id="next">&#10095;</a>
 
       </div>
       <br>
       <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" id="pic1"></span>
+        <span class="dot" id="pic2"></span>
+        <span class="dot" id="pic3"></span>
       </div>
     </div>
     <div class="grid">
-      <div class="product-box animated fadeIn">
+      <!-- <div class="product-box animated fadeIn">
         <div class="productImg">
 
         </div>
@@ -70,7 +86,7 @@
           <button type="submit" name="button">Buy Now</button>
           <button type="submit" name="button"> Details</button>
         </div>
-      </div>
+      </div> -->
       <div class="tile is-ancestor">
         <div class="tile is-vertical">
           <!-- <div class="tile"> -->
