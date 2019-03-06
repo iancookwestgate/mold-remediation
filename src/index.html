@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
     <title></title>
   </head>
   <body>
@@ -61,18 +62,71 @@
       </div>
     </div>
     <div class="grid">
-      <div class="product-box">
-        <img class="productImg animated slideInLeft" src="https://via.placeholder.com/100x100.png/#eee" alt="">
+      <div class="product-box animated fadeIn">
+        <div class="productImg">
+
+        </div>
+        <div class="buttons">
+          <button type="submit" name="button">Buy Now</button>
+          <button type="submit" name="button"> Details</button>
+        </div>
       </div>
-      <div class="product-box animated fadeInLeft">
-        <img class="productImg" src="https://via.placeholder.com/100x100.png/#eee" alt="">
-      </div>
-      <div class="product-box animated fadeInRight">
-        <img class="productImg" src="assets/images/remove.jpg" alt="">
-      </div>
-      <div class="product-box animated slideInRight">
-        <img class="productImg" src="https://via.placeholder.com/100x100.png/#eee" alt="">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical">
+          <!-- <div class="tile"> -->
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-primary is-bold">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+                <br>
+                <a class="button is-dark">Buy Now</a>
+                <a class="button is-white">Details</a>
+              </article>
+              <article class="tile is-child notification is-primary is-bold">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+                <br>
+                <a class="button is-dark">Buy Now</a>
+                <a class="button is-white">Details</a>
+              </article>
+              <article class="tile is-child notification is-primary is-bold">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+                <br>
+                <a class="button is-dark">Buy Now</a>
+                <a class="button is-white">Details</a>
+              </article>
+            </div>
+          <!-- </div> -->
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger is-bold">
+              <p class="title">Wide tile</p>
+              <p class="subtitle">Aligned with the right tile</p>
+              <div class="content">
+                <p>Content</p>
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+
       </div>
     </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>HomeRestore.com</strong> by <a href="https://isaachall.dev">TeamEpicodus</a>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
