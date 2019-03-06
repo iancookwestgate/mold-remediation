@@ -3,12 +3,36 @@ import './scss/normalize.scss';
 import './scss/input.scss';
 import $ from 'jquery';
 
-
 var slideIndex = 1;
 showSlides(slideIndex);
+rotate();
+$("#prev").click(function(){
+  plusSlides(slideIndex--);
+});
+
+$("#next").click(function(){
+  plusSlides(slideIndex++);
+});
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  showSlides(slideIndex);
+}
+
+$("#pic1").click(function() {
+  currentSlide(1);
+})
+
+$("#pic2").click(function() {
+  currentSlide(2);
+})
+
+$("#pic3").click(function() {
+  currentSlide(3);
+})
+function rotate() {
+  setInterval(function() {
+    plusSlides(slideIndex++);
+  }, 5000);
 }
 
 function currentSlide(n) {
