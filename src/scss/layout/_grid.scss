@@ -1,20 +1,4 @@
 
-// .grid {
-//   max-width: 100%;
-//   display: grid;
-//   grid-template-columns: 1fr;
-//   grid-row: auto;
-//   // grid-gap: 1%;
-//
-//   .product-box {
-//
-//     img{
-//       width: 100%;
-//       margin: 10px 10px;
-//
-//     }
-//   }
-// }
 .grid {
   max-width: 1440px;
   margin: -72px auto 10px;
@@ -39,11 +23,11 @@
 }
 
 .hero{
-// text-align: center;
-  // max-width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 .maxwidth{
-  // max-width: 1440px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
