@@ -17,6 +17,13 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: [
+            "style-loader",
+            "css-loader",
+        ]
+      },
 
       {
         test: /\.scss$/,
@@ -57,7 +64,6 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html'
     }),
-
 
     new UglifyJsPlugin(),
 
