@@ -3,7 +3,7 @@
   div.grid {
     display: grid;
     grid-template-columns: 100%;
-    grid-row: 1fr 1fr 1fr 1fr;
+    grid-row: auto;
   }
 };
 
