@@ -5,7 +5,7 @@ import $ from 'jquery';
 
 var slideIndex = 1;
 showSlides(slideIndex);
-rotate();
+// rotate();
 $("#prev").click(function(){
   plusSlides(slideIndex--);
 });
@@ -29,11 +29,11 @@ $("#pic2").click(function() {
 $("#pic3").click(function() {
   currentSlide(3);
 })
-function rotate() {
-  setInterval(function() {
-    plusSlides(slideIndex++);
-  }, 5000);
-}
+// function rotate() {
+//   setInterval(function() {
+//     plusSlides(slideIndex++);
+//   }, 5000);
+// }
 
 function currentSlide(n) {
   showSlides(slideIndex = n);

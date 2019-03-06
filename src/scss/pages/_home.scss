@@ -12,8 +12,9 @@
 
 //Hide the images by default
 .mySlides {
-  display: none;
+  display: grid;
   img {
+    object-fit: cover;
     height: 40vw;
   }
 }
@@ -47,13 +48,32 @@
 
 //Caption text
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  color: #f2f2f2;
+  font-size: calc(100% + 2vmin);
+  padding: 8px 12px;
+  top: 1%;
+  width: 50%;
+  right: 1vw;
+  overflow: hidden;
+  ul {
+    background-color: rgba(0,0,0,0.5);
+    list-style-position: inside;
+    padding: 20px;
+  }
+  .firstLI{
+    animation: slideInRight 2s linear;
+  }
+  .secondLI {
+    opacity: 0;
+    animation: slideInRight 2s 1s linear forwards;
+  }
+  .thirdLI {
+    opacity: 0;
+    animation: slideInRight 2s 2s linear forwards;
+  }
 }
 
 // Number text (1/3 etc)
@@ -97,4 +117,37 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
 }
