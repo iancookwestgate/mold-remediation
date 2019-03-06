@@ -1,9 +1,19 @@
 .navbar {
   background-color: #963C00;
-  display: flex;
-  justify-content: space-around;
-  a {
-    text-decoration: none;
-    color: white;
+  .navbar-internals {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
