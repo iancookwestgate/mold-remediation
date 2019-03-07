@@ -1,0 +1,49 @@
+#dude-banner {
+  background-image: url("../assets/images/dude-banner.jpg");
+  background-size: cover;
+  @include mQ(770px) {
+    text-align: center;
+  }
+}
+
+#building-banner {
+  background-image: url("../assets/images/house-banner.png");
+  background-size: cover;
+  h1 {
+    text-align: right;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  h2 {
+    text-align: right;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  @include mQ(1250px){
+    background-image: url("../assets/images/darker-house-banner.png");
+  }
+  @include mQ(770px) {
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+#vineyard-banner {
+  background-image: url("../assets/images/vineyard-banner.jpg");
+  background-size: cover;
+  h1 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  h2 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  @include mQ(770px) {
+    text-align: center;
+  }
+}

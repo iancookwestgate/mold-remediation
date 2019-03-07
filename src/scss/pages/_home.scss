@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+.content {
+  margin: 0 !important;
+}
+
 //Slideshow container
 .slideshow-container {
   max-width: 1440px;
@@ -69,7 +73,6 @@
     cursor: pointer;
     grid-column: 1;
     grid-row: 3;
-    justify-content: space-between;
     width: auto;
     padding: 0px 10px;
     color: white;
@@ -101,13 +104,6 @@
     transition: 0.6s ease;
     padding: 10px 10px 10px 0px;
   }
-}
-
-
-//Position the "next button" to the right
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 //On hover, add a black background color with a little big see-through
