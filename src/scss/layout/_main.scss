@@ -18,20 +18,32 @@
   }
   .text {
     position: relative;
-    color: #f2f2f2;
+    color: whitesmoke;
     font-size: 100%;
     margin: 0;
-    padding: 0;
+    margin-top: -6px;
+    padding: 0px;
     width: 100%;
     overflow: hidden;
     right: 0;
+    // background-image: linear-gradient(141deg, black 0%, #0a0a0a 71%, #181616 100%);
     ul {
-      background-color: black;
-      list-style-position: inside;
-      padding: 0;
-      margin: 0;
+      // background-color: rgba(0, 0, 0, 1);
+      background-image: linear-gradient(141deg, #1f191a 0%, #363636 71%, #46403f 100%);
+      list-style-position: outside;
+      list-style: none;
+      padding: 3rem 1.5rem;
+      margin: 0px;
       width: 100%;
       height: 100%;
+      li{
+        &:first-child{
+          font-size: 2rem;
+          // font-weight: 600;
+        }
+
+        line-height: 1.125;
+      }
     }
   }
 }

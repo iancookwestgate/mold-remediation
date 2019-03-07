@@ -19,6 +19,11 @@
     // height:75%;
 
     color: white;
+    font-style: oblique;
+    .is-parent{
+      margin-bottom: -10px;
+    }
+
     .is-child{
     background-color: $army;
 
