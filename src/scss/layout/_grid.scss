@@ -20,6 +20,10 @@
   .tile{
     height:75%;
     color: white;
+    font-style: oblique;
+    .is-parent{
+      margin-bottom: -10px;
+    }
 
     img {
       height: 325px;
