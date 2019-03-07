@@ -25,7 +25,7 @@
       height: 325px;
       background-color: white;
       border-radius: 5px;
-      min-width: 325px;
+      min-width: 345px;
       max-width: 440px;
       }
     }
@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0064B2;
+    background-color: #005699;
     border: 1px solid radius;
   .subtitle{
     text-align: center;
@@ -51,5 +51,6 @@
 }
 
 .is-danger{
-  background-color: #FF9A00 !important;
+  background-color: #ED8F00 !important;
+
 }
