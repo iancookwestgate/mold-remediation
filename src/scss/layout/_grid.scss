@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #005699;
+    background-color: $primBlue;
     border: 1px solid radius;
   .subtitle{
     text-align: center;
@@ -52,5 +52,5 @@
 
 .is-danger{
   background-color: #ED8F00 !important;
-
+  margin-bottom: 10px;
 }
