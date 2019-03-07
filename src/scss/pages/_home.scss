@@ -15,7 +15,7 @@
   display: grid;
   img {
     object-fit: cover;
-    height: 40vw;
+    height: 40vmin;
     max-height: 500px;
   }
 }
@@ -53,11 +53,11 @@
   justify-content: flex-end;
   position: absolute;
   color: #f2f2f2;
-  font-size: calc(100% + 2vmin);
+  font-size: 2vmin;
   padding: 8px 12px;
   top: 1%;
   width: 50%;
-  right: 1vw;
+  right: 1vmin;
   overflow: hidden;
   ul {
     background-color: rgba(0,0,0,0.5);
@@ -88,6 +88,12 @@
 }
 
 // The dots/bullets/indicators
+.dots {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
 .dot {
   cursor: pointer;
   height: 15px;

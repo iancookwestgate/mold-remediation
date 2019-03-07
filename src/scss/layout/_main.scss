@@ -11,7 +11,30 @@
 }
 
 
-
+@media screen and (max-width: 720px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .text {
+    position: relative;
+    color: #f2f2f2;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    right: 0;
+    ul {
+      background-color: black;
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
 
 
 
