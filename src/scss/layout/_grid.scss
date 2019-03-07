@@ -1,7 +1,10 @@
+.is-ancestor {
+  margin: 0;
+}
 
 .grid {
   max-width: 1440px;
-  margin: auto auto 10px;
+  margin: auto auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -22,7 +25,7 @@
     color: white;
     font-style: oblique;
     .is-parent{
-      margin-bottom: -10px;
+      margin-bottom: 0;
     }
 
     img {
