@@ -11,51 +11,50 @@
   .button{
     text-align: center;
     width: 100%;
+    min-width: 325px;
+    max-width: 440px;
     &:first-child{
       background-color:$odblue;
     }
   }
   .tile{
-    // height:75%;
-
+    height:75%;
     color: white;
     font-style: oblique;
     .is-parent{
       margin-bottom: -10px;
     }
 
-    .is-child{
-    background-color: $army;
-
-    // border: solid 1px red;
-
-    img{height: 325px;background-color: white;border-radius: 5px;}
+    img {
+      height: 325px;
+      background-color: white;
+      border-radius: 5px;
+      min-width: 345px;
+      max-width: 440px;
+      }
     }
-  }
-  // .is-child{
-  //   &:not(:first-child){
-  //     margin-left: 10px !important;
-  //   }
+  .is-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $primBlue;
+    border: 1px solid radius;
   .subtitle{
     text-align: center;
+    }
   }
 }
 
-.hero{
-  width: 100%;
-  max-width: 1440px;
-  // background-color: $moss !important;
-}
 .maxwidth{
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
-
-
 }
+
 .is-danger{
-  background-color: $dirt !important;
+  background-color: #ED8F00 !important;
+  margin-bottom: 10px;
 }
