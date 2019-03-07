@@ -6,11 +6,11 @@ import $ from 'jquery';
 var slideIndex = 1;
 showSlides(slideIndex);
 // rotate();
-$("#prev").click(function(){
+$(".prev").click(function(){
   plusSlides(slideIndex--);
 });
 
-$("#next").click(function(){
+$(".next").click(function(){
   plusSlides(slideIndex++);
 });
 
@@ -18,15 +18,15 @@ function plusSlides(n) {
   showSlides(slideIndex);
 }
 
-$("#pic1").click(function() {
+$(".pic1").click(function() {
   currentSlide(1);
 })
 
-$("#pic2").click(function() {
+$(".pic2").click(function() {
   currentSlide(2);
 })
 
-$("#pic3").click(function() {
+$(".pic3").click(function() {
   currentSlide(3);
 })
 // function rotate() {
@@ -51,6 +51,6 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "grid";
   dots[slideIndex-1].className += " active";
 }
